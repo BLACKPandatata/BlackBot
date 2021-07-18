@@ -1,4 +1,4 @@
-# BlackBot
+#  instalacion BlackBot
 
 
 Para instalar el bot
@@ -13,3 +13,8 @@ $ cd BlackBot
 $ bash install.sh
 
 $ npm start
+
+
+# Recuerden suscribirse en mi canal
+
+Es
