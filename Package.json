@@ -1,12 +1,12 @@
 {
-  "name": "Nombre",
-  "version": "0.0.0",
+  "name": "BlackPamda",
+  "version": "2.0.0",
   "description": "",
-  "main": "nombre del archivo creado anteriormente.js",
+  "main": "BlackPanda.js",
   "scripts": {
-  "start": "node nombre del archivo creado anteriormente.js"
+  "start": "node BlackPanda.js"
   },
   "dependencies": {
-    "@adiwajshing/baileys": "^3.4.1"
+    "@adiwajshing/WebPanda": "^3.4.1"
   }
 }
