@@ -1,4 +1,4 @@
-# const { WAConnection } = require('@adiwajshing/baileys');
+# const { WAConnection } = require('@adiwajshing/webPanda');
 const fs = require('fs');
 
 async function iniciar () { 
@@ -9,17 +9,17 @@ async function iniciar () {
         client.on('qr', () => {
         })
 
-        fs.existsSync('./blackPanda.json') && client.loadAuthInfo('./blackPanda.json')
+        fs.existsSync('./BlackPanda.json') && client.loadAuthInfo('./BlackPanda.json')
 
         client.on('connecting', () => {
-        console.log('Conectando')
+        console.log(' intentando Conectando')
         })
 
         client.on('open', () => {
         console.log('Conectado exitosamente :D')
         })
         await client.connect({timeoutMs: 30*1000})
-        fs.writeFileSync('./blackPanda.json', JSON.stringify(client.base64EncodedAuthInfo(), null, '\t'))
+        fs.writeFileSync('./BlackPanda.json', JSON.stringify(client.base64EncodedAuthInfo(), null, '\t'))
         }
 
 iniciar ()
